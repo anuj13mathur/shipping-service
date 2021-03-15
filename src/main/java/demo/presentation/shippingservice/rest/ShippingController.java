@@ -1,4 +1,4 @@
-package com.presentation.shippingservice.rest;
+package demo.presentation.shippingservice.rest;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
