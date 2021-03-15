@@ -8,7 +8,6 @@ pipeline {
         stage('Build') {
             steps {
 		        sh 'echo "Building shipping service..."'
-		        sh './gradlew clean build'
        	    }
 	    }
 	    stage('Build docker image') {
